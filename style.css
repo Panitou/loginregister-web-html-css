@@ -1,0 +1,39 @@
+body{
+    background: rgb(32, 32, 32);
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  input{
+    width: 200px;
+    height: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .login{
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: none;
+  }
+
+  .login:hover{
+    background-color: rgb(244, 244, 80);
+  }
