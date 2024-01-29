@@ -41,7 +41,51 @@ body {
   border-radius: 5px;
 }
 
+.container .content .login {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  margin-inline: 5px;
+  font-size: 14px;
+}
+
+.container .content .register {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  margin-inline: 5px;
+  font-size: 14px;
+}
+
+.container .content .logout {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  margin-inline: 5px;
+  font-size: 14px;
+}
+
+.container .content .login:active {
+  background: rgb(255, 151, 151);
+}
+
+.container .content .register:active {
+  background: rgb(255, 151, 151);
+}
+
+.container .content .logout:active {
+  background: rgb(255, 151, 151);
+}
+
 .recomendacion {
   font-weight: normal;
-  margin: 10px;
 }
