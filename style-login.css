@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0px;
+}
+
+h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.container .content .formulario-login {
+  box-sizing: border-box;
+  margin: 0px;
+  width: 100%;
+}
+
+.container {
+  background: red;
+  height: 45vh;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+.container .content #formulario-login .correo {
+  margin: 10px;
+}
+
+.container .content #formulario-login .pass {
+  margin: 10px;
+}
+
+.container .content #formulario-login #email-input {
+  border-radius: 4px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+}
+
+.container .content #formulario-login #pass-input {
+  border-radius: 4px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+}
+
+::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+}
+
+.container .content {
+  text-align: center;
+}
+
+label {
+  display: block;
+  color: white;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.button-login {
+  display: block;
+  margin: 10px;
+}
+
+.button-login button {
+  background: white;
+  border-style: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  color: red;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+}
+
+.container .content #formulario-login .pass-recovery {
+  color: white;
+  text-decoration: none;
+}
