@@ -12,7 +12,7 @@ h3 {
   margin: 0px;
 }
 
-.container .content .formulario-login {
+.container .content .formulario-register {
   box-sizing: border-box;
   margin: 0px;
   width: 100%;
@@ -20,7 +20,7 @@ h3 {
 
 .container {
   background: red;
-  height: 45vh;
+  height: 60vh;
   width: 300px;
   border-radius: 20px;
   display: flex;
@@ -31,22 +31,36 @@ h3 {
   margin: auto;
 }
 
-.container .content #formulario-login .correo {
+.container .content #formulario-register .correo {
   margin: 10px;
 }
 
-.container .content #formulario-login .pass {
+.container .content #formulario-register .pass {
   margin: 10px;
 }
 
-.container .content #formulario-login #email-input {
+.container .content #formulario-register #name-input {
   border-radius: 4px;
   border-style: none;
   width: 200px;
   height: 30px;
 }
 
-.container .content #formulario-login #pass-input {
+.container .content #formulario-register #last-name-input {
+  border-radius: 4px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+}
+
+.container .content #formulario-register #email-input {
+  border-radius: 4px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+}
+
+.container .content #formulario-register #pass-input {
   border-radius: 4px;
   border-style: none;
   width: 200px;
@@ -69,12 +83,12 @@ label {
   margin: 10px;
 }
 
-.button-login {
+.button-register {
   display: block;
   margin: 10px;
 }
 
-.button-login button {
+.button-register button {
   background: white;
   border-style: none;
   border-radius: 5px;
@@ -96,7 +110,7 @@ label {
   font-weight: 700;
 }
 
-.button-login button:active {
+.button-register button:active {
   background: rgb(255, 176, 176);
 }
 
@@ -104,7 +118,7 @@ label {
   background: rgb(255, 176, 176);
 }
 
-.container .content #formulario-login .pass-recovery {
+.container .content #formulario-register .pass-recovery {
   color: white;
   text-decoration: none;
 }
